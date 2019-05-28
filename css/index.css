@@ -1,69 +1,114 @@
-html{
-    width: 100%;
-    height: auto;
-    background-color:#d4efdf;
+html {
+  width: 100%;
+  height: auto;
+  background-color: #d4efdf;
 }
+
 body {
-    margin: 0;
+  margin: 0;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border-bottom: .5px solid white;
-  }
-  
-li {
-    float: left;
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-bottom: .5px solid white;
 }
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 24px 60px;
-    text-decoration: none;
-    font-size: 25px;
+
+nav li {
+  float: left;
 }
-  
-li a:hover {
-    background-color: #111;
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 60px;
+  text-decoration: none;
+  font-size: 25px;
 }
+
+nav li a:hover {
+  background-color: #111;
+}
+
 footer {
-    padding: 54px 30px;
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    background-color: #333;
+  padding: 54px 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: #333;
 }
+
 #fotoHome {
-    width: 100%;
-    height: auto;
-    background-color: grey;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  position: relative;
 }
+
+#fotoHome img {
+  background-blend-mode: color-dodge;
+  max-width: 100vw;
+}
+
 #lema {
-    color: white;
-    position: absolute;
-    bottom: 450px;
-    left: 30px;
+  color: white;
+  position: absolute;
+  bottom: 450px;
+  left: 30px;
+  text-shadow: 3px 2px 3px #333;
 }
+
 #info {
-    height: 100%;
-    margin: 0 auto;
-    max-width: 800px;
-  }
-  
-  #info p {
-    font-size: 18px; 
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 30px;
-  }
-  #grande {
-    font-size: 45px;      
-  }
-  #peque {
-    font-size: 25px;      
-  }
+  height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#info p {
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+#grande {
+  font-size: 45px;
+}
+
+#peque {
+  font-size: 25px;
+}
+
+#animalsList {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-bottom: .5px solid white;
+}
+
+#animalsList li {
+  display: inline-block;
+}
+
+#animalsList li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 24px 60px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#animalsList li a:hover {
+  background-color: #111;
+}
