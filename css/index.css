@@ -1,0 +1,69 @@
+html{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: .5px solid white;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 60px;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+footer {
+    padding: 54px 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #333;
+}
+#fotoHome {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+#lema {
+    color: white;
+    position: absolute;
+    bottom: 450px;
+    left: 30px;
+}
+#info {
+    height: 700px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  #info p {
+    font-size: 18px; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 30px;
+  }
+  #grande {
+    font-size: 45px;      
+  }
+  #peque {
+    font-size: 25px;      
+  }

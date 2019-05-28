@@ -1,0 +1,58 @@
+ 
+.animal{
+    width: 200px;
+    position: relative;
+    height: 200px;
+    background: rgba(0,0,0,0.5);
+    margin: 2px;
+    float: left;
+}
+.animal_info{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	vertical-align: middle;
+
+}
+.info_bkg{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 100%;
+	min-width: 100%;
+	margin: 5px auto;
+	border-radius: 5px;
+}
+
+.animal_info .close_info {
+    width: 200px;
+    line-height: 70px;
+    background: red;
+    border-radius: 25px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.animal_info .big_image {
+    background: blue url(image/koala.jpg) 100% 99%;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.animal_info .small_image {
+    background: blue url(image/koala.jpg) 100% 99%;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+    display: inline-block;
+
+}
+.animal_info .other_images {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
