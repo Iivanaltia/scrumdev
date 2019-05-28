@@ -26,6 +26,9 @@
 	border-radius: 5px;
 }
 
+.animals_container {
+    min-height: 80%;
+}
 .animal_info .close_info {
     width: 200px;
     line-height: 70px;
