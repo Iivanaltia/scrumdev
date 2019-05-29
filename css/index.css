@@ -8,13 +8,21 @@ body {
   margin: 0;
 }
 
-nav ul {
-  list-style-type: none;
+header {
+  background-color: #333;
+  display: flex;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  border-bottom: .5px solid white;
+  border-bottom: 0.5px solid white;
+}
+
+#logo img {
+  height: 100px;
+}
+
+nav ul {
+  list-style-type: none;
 }
 
 nav li {
@@ -96,7 +104,7 @@ footer {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  border-bottom: .5px solid white;
+  border-bottom: 0.5px solid white;
 }
 
 #animalsList li {
