@@ -5,25 +5,31 @@
   <title>Contacto | El zoológico de scrum</title>
   <lang "ES">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
     <script src="js/index.js"></script>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="animales.html">Nuestros Animales</a></li>
-      <li><a href="galeria.html">Galería fotográfica</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
+  <header>
+    <div id="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="logo del sitio">
+      </a>
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#animalsList">Nuestros Animales</a></li>
+          <li><a href="galeria.html">Galería fotográfica</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <div id="info">
     <p>
       <h1>Contacta con nosotros:</h1>
-
-      <h2>E-mail:</h2>
-      - zooscrum@gmail.com
-
       <h2>Teléfono:<br></h2>
       - 654654654
 
@@ -36,7 +42,26 @@
 
       <h2>Descripción:<br></h2>
       Para recibir información envie un email desde el siguiente formulario de contacto y le responderemos lo más rápido
-      posible
+      posible:<br><br>
+
+      <form action="/my-handling-form-page" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+        </div>
+        <div>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
     </p>
     <p><br></p>
   </div>
