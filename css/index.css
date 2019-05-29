@@ -85,9 +85,12 @@ footer {
 
 #animalsList {
   background-color: white;
+  min-height: 250px;
 }
 
-ul {
+#animalsList ul {
+  display: block;
+  background-color: white;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -98,6 +101,7 @@ ul {
 
 #animalsList li {
   display: inline-block;
+  background-color: white;
 }
 
 #animalsList li a {
