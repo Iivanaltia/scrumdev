@@ -15,7 +15,9 @@
  		console.log(url);
  		console.log(animal_title);
  		$(".animal_info").toggle();
- 		$(".big_image").css("backgound-image",url);
+ 		//$(".big_image").css("background-image",url);
+ 		$(".big_image").hide();
+ 		$("#_"+animalIdx).show();
  		$("#animal_title").html(animal_title);
  	});
 

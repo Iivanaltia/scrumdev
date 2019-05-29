@@ -49,14 +49,22 @@
 }
 
 .animal_info .big_image {
+    display: none;
     background-repeat: no-repeat;
-    background-color: blue; 
+    /*background-color: blue; */
     background-size: contain;
     background-position: center;
     width: 500px;
     height: 500px;
     margin: 0 auto;
 }
+.animal_info #_01{background-image: url(../img/0101.jpg);}
+.animal_info #_02{background-image: url(../img/0201.jpg);}
+.animal_info #_03{background-image: url(../img/0301.jpg);}
+.animal_info #_04{background-image: url(../img/0401.jpg);}
+.animal_info #_05{background-image: url(../img/0501.jpg);}
+.animal_info #_06{background-image: url(../img/0601.jpg);}
+.animal_info #_07{background-image: url(../img/0701.jpg);}
 .animal_info .small_image {
     background: blue url(image/koala.jpg) 100% 99%;
     width: 200px;
