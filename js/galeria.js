@@ -8,11 +8,17 @@
  	}
  	$(".animal").on("click", function(){
  		var animal_id = $(this).attr("id");
+ 		var animalIdx = animal_id.substring(0, 2);
+ 		console.log(animalIdx);
+ 		var animal_title = witchAnimal(parseInt(animalIdx));
  		var url = "url('../img/"+animal_id+".jpg')";
  		console.log(url);
+ 		console.log(animal_title);
  		$(".animal_info").toggle();
- 		$(".big_image").css("backgound-image",url);
- 		$("#animal_title").html("KOALA");
+ 		//$(".big_image").css("background-image",url);
+ 		$(".big_image").hide();
+ 		$("#_"+animalIdx).show();
+ 		$("#animal_title").html(animal_title);
  	});
 
  	$(".close_info").on("click", function(){
@@ -26,6 +32,25 @@
  	switch(animalIdx){
  		case 1:
  			animal_title = "León";
+ 			break;
+ 		case 2:
+ 			animal_title = "Canguro";
+ 			break;
+ 		case 3:
+ 			animal_title = "Koala";
+ 			break;
+ 		case 4:
+ 			animal_title = "Cocodrilo";
+ 			break;
+ 		case 5:
+ 			animal_title = "Tiburón";
+ 			break;
+ 		case 6:
+ 			animal_title = "Pingüino";
+ 			break;
+ 		case 7:
+ 			animal_title = "Loro";
+ 			break;
  	}
  	return animal_title;
  }
