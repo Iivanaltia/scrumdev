@@ -36,11 +36,12 @@
 .animal_photo_container {
     display: inline-block;
 }
-.animal_info .close_info {
-    width: 200px;
-    line-height: 70px;
+.animal_info .close_info {      
+    position: absolute;
+    right: 20px;  
+    overflow: hidden;
     background: red;
-    border-radius: 25px;
+    border-radius: 6px;
     margin: 0 auto;
     text-align: center;
     font-size: 1.5em;
@@ -48,7 +49,10 @@
 }
 
 .animal_info .big_image {
-    background: blue url(image/koala.jpg) 100% 99%;
+    background-repeat: no-repeat;
+    background-color: blue; 
+    background-size: contain;
+    background-position: center;
     width: 500px;
     height: 500px;
     margin: 0 auto;
@@ -65,4 +69,15 @@
     margin: 0 auto;
     text-align: center;
     padding: 30px;
+}
+.animal_info .animal_details {    
+    position: relative;
+    display: inline-block;
+    max-width: 500px;
+    margin: 20px;
+    padding: 10px;
+    vertical-align: bottom;
+    background-color: #ccc;
+    font-size: 1.5em;
+    border-radius: 10px;
 }
